@@ -1,0 +1,8 @@
+.animate-fast {
+  animation: blink-fast 0.5s infinite alternate;
+}
+
+@keyframes blink-fast {
+  from { color: red; }
+  to { color: yellow; }
+}
